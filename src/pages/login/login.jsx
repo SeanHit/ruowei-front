@@ -4,6 +4,7 @@ import {
     Icon,
     Input,
     Button,
+    Checkbox
 } from 'antd'; //添加ant form组件
 import "./login.less"
 import logo from './images/login-bg.png'
@@ -108,7 +109,7 @@ const Item =Form.Item   //不能写在ipmpoot之前
                 <header className={"login-header"}>
                     <img src={logo} alt={""}/>
                     {/*//加载动态的值*/}
-                    <h1>哈工大实验中心</h1>
+                    <h1>实验中心管理平台</h1>
                 </header>
                 <section className={"login-content"}>
                     <h2>用户登录</h2>
@@ -158,11 +159,17 @@ const Item =Form.Item   //不能写在ipmpoot之前
                                 )
                             }
                         </Item>
+                            {getFieldDecorator('remember', {
+                                valuePropName: 'checked',
+                                initialValue: true,
+                            })(<Checkbox>记住密码</Checkbox>)}
                         <Form.Item>
                             <Button type="primary" htmlType="submit" className="login-form-button">
                                 Log in
                             </Button>
                         </Form.Item>
+
+
                     </Form>
                 {/*    */}
                 </section>

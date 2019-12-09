@@ -15,7 +15,7 @@ export default class App extends Component {
     render() {   //js语法 生成虚拟dom
         // return <div>App</div>  //然后生成真实的dom
         return (<BrowserRouter>
-            <Switch> {/*只匹配某一个路由,注意大写*/}
+            <Switch> {/*只匹配某一个路由,注意大写*/git }
                 <Route path={'/login'} component={Login}></Route>
                 {/*<Route path={'/'} component={Login}></Route>*/}
                 <Route path={'/admin'} component={Admin}></Route>
