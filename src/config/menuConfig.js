@@ -10,17 +10,17 @@ const  menuList = [
             // 子菜单列表
             {
                 title: '今日课表',
-                key: '/todaySchedule',
+                key: '/schedule/todaySchedule',
                 icon: 'bell'
             },
             {
                 title: '本周课表',
-                key: '/weekSchedule',
+                key: '/schedule/weekSchedule',
                 icon: 'history'
             },
             {
                 title: '课表查询',
-                key: '/querySchedule',
+                key: '/schedule/querySchedule',
                 icon: 'carry-out'
             },
         ]
@@ -33,198 +33,198 @@ const  menuList = [
             // 子菜单列表
             {
                 title: '课程管理(管理员)',
-                key: '/courseManageAdmin',
+                key: '/course/courseManage-admin',
                 icon: 'setting'
             },
             {
                 title: '课程管理(教师端)',
-                key: '/courseManageTeacher',
+                key: '/course/courseManage-teacher',
                 icon: 'setting'
             },
             {
                 title: '排课申请处理',
-                key: '/applicationReply',
+                key: '/course/applicationReply',
                 icon: 'carry-out'
             },
         ]
     },
     {
         title: '设备管理',
-        key: '/8',
+        key: '/equipment',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '设备台账',
-                key: '/9',
+                key: '/equipment/equipmentTable',
                 icon: 'bars'
             },
             {
                 title: '购置设备',
-                key: '/10',
+                key: '/equipment/equipmentPurchase',
                 icon: 'bars'
             },
             {
                 title: '新设备登记',
-                key: '/11',
+                key: '/equipment/equipmentRegister',
                 icon: 'setting'
             },
             {
                 title: '设备维修',
-                key: '/12',
+                key: '/equipment/equipmentRepair',
                 icon: 'carry-out'
             },
             {
                 title: '设备报废',
-                key: '/13',
+                key: '/equipment/equipmentScrap',
                 icon: 'carry-out'
             },
         ]
     },
     {
         title: '耗材管理',
-        key: '/14',
+        key: '/consumable',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '耗材台账',
-                key: '/15',
+                key: '/consumable/consumableTable',
                 icon: 'bars'
             },
             {
                 title: '耗材登记',
-                key: '/16',
+                key: '/consumable/consumableRegist',
                 icon: 'tool'
             },
             {
                 title: '耗材购置',
-                key: '/17',
+                key: '/consumable/consumablePurchase',
                 icon: 'tool'
             },
             {
                 title: '耗材领用',
-                key: '/18',
+                key: '/consumable/consumableReceiver',
                 icon: 'tool'
             },
         ]
     },
     {
         title: '用品管理',
-        key: '/19',
+        key: '/supplies',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '用品台账',
-                key: '/20',
+                key: '/supplies/suppliesTable',
                 icon: 'bars'
             },
             {
                 title: '用品登记',
-                key: '/21',
+                key: '/supplies/suppliesRegist',
                 icon: 'tool'
             },
             {
                 title: '用品购置',
-                key: '/22',
+                key: '/supplies/suppliesPurchase',
                 icon: 'tool'
             },
             {
                 title: '用品领用',
-                key: '/23',
+                key: '/supplies/suppliesReceive',
                 icon: 'tool'
             },
         ]
     },
     {
         title: '日常管理',
-        key: '/24',
+        key: '/daily',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '值班表',
-                key: '/25',
+                key: '/daily/dutySchedule',
                 icon: 'bars'
             },
             {
                 title: '考勤',
-                key: '/26',
+                key: '/daily/atendance',
                 icon: 'tool'
             },
             {
                 title: '巡检',
-                key: '/27',
+                key: '/daily/todayInspection',
                 icon: 'tool'
             },
         ]
     },
     {
         title: '实验课管理',
-        key: '/28',
+        key: '/course-management',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '我的实验课(学生)',
-                key: '/29',
+                key: '/course-management/myCourse-student',
                 icon: 'bars'
             },
             {
                 title: '我的实验课(教师)',
-                key: '/30',
+                key: '/course-management/myCourse-teacher',
                 icon: 'tool'
             },
         ]
     },
     {
         title: '学期管理',
-        key: '/31',
+        key: '/semester',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '创建学期',
-                key: '/32',
+                key: '/semester/createSemester',
                 icon: 'bars'
             },
             {
                 title: '学期查看',
-                key: '/33',
+                key: '/semester/checkoutSemester',
                 icon: 'tool'
             },
             {
                 title: '设置学期',
-                key: '/34',
+                key: '/semester/setSemester',
                 icon: 'tool'
             },
         ]
     },
     {
         title: '后台管理',
-        key: '/35',
+        key: '/backManagement',
         icon: 'appstore',
         children: [
             // 子菜单列表
             {
                 title: '用户管理',
-                key: '/36',
+                key: '/backManagement/users',
                 icon: 'bars'
             },
             {
                 title: '角色管理',
-                key: '/37',
+                key: '/backManagement/roles',
                 icon: 'tool'
             },
             {
                 title: '权限管理',
-                key: '/38',
+                key: '/backManagement/privileges',
                 icon: 'tool'
             },
             {
                 title: '实验室管理',
-                key: '/39',
+                key: '/backManagement/labs',
                 icon: 'tool'
             },
         ]
