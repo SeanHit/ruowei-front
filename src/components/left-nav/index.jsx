@@ -69,8 +69,7 @@ class LeftNav extends Component{
                     theme="dark"
                 >
                     {
-                        this.menuNodes
-                        // this.getMenuNodes_reduce(menuList)
+                        this.menuNodes  //获得菜单栏对象
                     }
                 </Menu>
             </div>

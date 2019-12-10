@@ -160,10 +160,8 @@ class  Login extends Component{
                                 登录
                             </Button>
                         </Form.Item>
-
-
                     </Form>
-                {/*    */}
+
                 </section>
             </div>)
 
